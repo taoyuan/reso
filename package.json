@@ -1,6 +1,6 @@
 {
   "name": "reso",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A generic resource loader for node js",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/taoyuan/reso/issues"
   },
-  "homepage": "https://github.com/taoyuan/reso"
+  "homepage": "https://github.com/taoyuan/reso",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "resolve": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
 }
